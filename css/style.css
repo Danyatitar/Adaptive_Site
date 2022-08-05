@@ -1,0 +1,35 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-image: url("./../img/header-bg.jpg");
+  position: relative;
+  color: #ffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -2;
+}
+.products_text {
+  font-size: 8px;
+}
+.Learn_more_text {
+  font-size: 12px;
+}
+.footer_text {
+  font-size: 11px;
+}
+.last_text {
+  font-size: 9px;
+}
